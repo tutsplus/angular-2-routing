@@ -1,0 +1,11 @@
+.jumbotron {
+  background-image: url('app/pages/about/images/vscode.png') ;
+  background-size: cover;
+  height: 100%;
+  width:100%;
+  color: white;
+}
+
+.spacer {
+  height: 20%;
+}

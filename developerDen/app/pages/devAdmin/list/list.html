@@ -1,0 +1,16 @@
+<h1>Available Developers</h1>
+
+<table class="table table-condensed">
+    <tr>
+        <th>ID</th>
+        <th>FirstName</th> 
+        <th>LastName</th>
+        <th>Skills</th>
+    </tr>
+    <tr *ngFor="let dev of devs" (click)="chooseDev(dev)">
+        <td>{{dev.id}}</td>
+        <td>{{dev.first}}</td> 
+        <td>{{dev.last}}</td>
+        <td>{{dev.skills}}</td>
+    </tr>
+</table>

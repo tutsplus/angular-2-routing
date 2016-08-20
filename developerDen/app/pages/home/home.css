@@ -1,0 +1,7 @@
+.jumbotron {
+  background-image: url('app/pages/home/images/pug.jpg') ;
+  background-size: cover;
+  background-position: 70% 30%;
+  height: 50%;
+
+}
